@@ -1,0 +1,53 @@
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XYZ University</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+<body class="document">
+<object data="side-nav.html" width="500" height="100%">
+</object>
+<aside>
+    <h3>Registration form</h3></aside>
+<form action="/reg_success.php">
+    <div class="form-group">
+        <label>Register Number </label>
+        <input type="number" placeholder="Enter register number">
+        <label>Email address</label>
+        <input type="email" placeholder="Enter email">
+        <label>Department</label>
+        <input list="depts" placeholder="Enter department name">
+        <datalist>
+            <option value="Computer Science">
+            <option value="Maths">
+            <option value="Chemistry">
+            <option value="IT">
+            <option value="Physics">
+        </datalist>
+        <label>Full name</label>
+        <input type="text" placeholder="Enter full name">
+        <label>Password</label>
+        <input type="password" placeholder="Enter Password">
+        <label>Upload your resume</label>
+        <input type="file">
+        <button type="submit">Register</button>
+    </div>
+</form>
+<!--
+  put your code here
+   1. link sid-nav.html file using object tag
+   2. student registration form
+-->
+
+</body>
+
+</html>
